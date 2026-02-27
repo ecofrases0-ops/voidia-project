@@ -1,0 +1,6 @@
+VOIDIA Roadmap (2026)
+
+- Semanas 1–8: MVP inicial (música modular + voces IA).
+- Meses 3–5: Modularidad audiovisual (doblaje, animación).
+- Meses 6–9: Marketplace y monetización.
+- Dedicación: 20–25 horas semanales, rutinas diarias (guion, assets, música, doblaje, animación, marketplace).
