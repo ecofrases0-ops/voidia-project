@@ -1,0 +1,45 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Félix (ecofrases0-ops)",
+    "email": "tuemail@example.com",
+    "description": "Creator of VOIDIA, a modular AI platform to produce anime and series in hours.",
+    "webpageUrl": {
+      "url": "https://github.com/ecofrases0-ops"
+    }
+  },
+  "projects": [{
+    "guid": "voidia-project",
+    "name": "VOIDIA",
+    "description": "Modular AI platform to produce anime and series in hours.",
+    "webpageUrl": {
+      "url": "https://github.com/ecofrases0-ops/voidia-project"
+    },
+    "repositoryUrl": {
+      "url": "https://github.com/ecofrases0-ops/voidia-project"
+    },
+    "licenses": ["spdx:AGPL-3.0"],
+    "tags": ["ai", "anime", "open-source", "modular-platform"]
+  }],
+  "funding": {
+    "channels": [{
+      "guid": "github-sponsors",
+      "type": "payment-provider",
+      "address": "https://github.com/sponsors/ecofrases0-ops",
+      "description": "Support VOIDIA via GitHub Sponsors."
+    }],
+    "plans": [{
+      "guid": "monthly-support",
+      "status": "active",
+      "name": "Monthly support plan",
+      "description": "Help cover infrastructure and AI voices for VOIDIA.",
+      "amount": 3000,
+      "currency": "USD",
+      "frequency": "monthly",
+      "channels": ["github-sponsors"]
+    }]
+  }
+}
